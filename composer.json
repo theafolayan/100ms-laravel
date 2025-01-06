@@ -1,0 +1,24 @@
+{
+  "name": "theafolayan/100ms-laravel",
+  "description": "A Laravel SDK for 100ms API.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Theafolayan\\100msLaravel\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "theafolayan",
+      "email": "theafolayan@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^8.0",
+    "guzzlehttp/guzzle": "^7.0",
+    "firebase/php-jwt": "^6.0",
+    "illuminate/support": "^8.0|^9.0|^10.0"
+  }
+}
