@@ -6,7 +6,7 @@
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "Theafolayan\\100msLaravel\\": "src/"
+      "TheAfolayan\\HmsLaravel\\": "src/"
     }
   },
   "extra": {

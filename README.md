@@ -126,7 +126,7 @@ Contributions are welcome! Please follow these steps:
 
 ## License
 
-This package is licensed under the MIT License.
+This package is licensed under the [MIT License](https://opensource.org/license/mit).
 
 ## Support
 
