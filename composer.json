@@ -12,7 +12,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "TheAfolayan\\OneHundredMS\\OneHundredMSServiceProvider"
+        "TheAfolayan\\HmsLaravel\\HmsServiceProvider"
       ]
     }
   },
