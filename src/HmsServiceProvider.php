@@ -14,7 +14,7 @@ class HmsServiceProvider extends ServiceProvider
             return new Services\HmsService(
                 config('100ms.api_key'),
                 config('100ms.api_secret'),
-                config('100ms.base_url')
+                config('100ms.base_url', 'https://api.100ms.live/v2/')
             );
         });
     }
