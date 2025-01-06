@@ -2,10 +2,18 @@
   "name": "theafolayan/100ms-laravel",
   "description": "A Laravel SDK for 100ms API.",
   "type": "library",
+  "version": "1.0.1",
   "license": "MIT",
   "autoload": {
     "psr-4": {
       "Theafolayan\\100msLaravel\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "TheAfolayan\\OneHundredMS\\OneHundredMSServiceProvider"
+      ]
     }
   },
   "authors": [

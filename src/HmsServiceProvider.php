@@ -21,8 +21,9 @@ class HmsServiceProvider extends ServiceProvider
 
     public function boot()
     {
+        // Use the '100ms-config' tag for publishing
         $this->publishes([
             __DIR__ . '/Config/100ms.php' => config_path('100ms.php'),
-        ]);
+        ], '100ms-config');
     }
 }
