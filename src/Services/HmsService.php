@@ -89,6 +89,11 @@ class HmsService
         return $this->request('POST', "/v2/rooms/{$roomId}/codes", $data);
     }
 
+    public function getRoomCodes(string $roomId)
+    {
+        return $this->request('GET', "/v2/room-codes/room/{$roomId}");
+    }
+
     public function disableRoom(string $roomId)
     {
         return $this->request('POST', "/v2/rooms/{$roomId}", ['enabled' => false]);
