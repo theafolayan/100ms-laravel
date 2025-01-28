@@ -86,7 +86,12 @@ class HmsService
 
     public function generateRoomCode(string $roomId, array $data = [])
     {
-        return $this->request('POST', "/v2/rooms/{$roomId}/codes", $data);
+        return $this->request('POST', "/v2/room-codes/room/{$roomId}", $data);
+    }
+
+    public function generateRoomCodeForRole(string $roomId, string $role, array $data = [])
+    {
+        return $this->request('POST', "/v2/room-codes/room/{$roomId}/role/{$role}", $data);
     }
 
     public function getRoomCodes(string $roomId)
