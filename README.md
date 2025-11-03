@@ -102,6 +102,20 @@ $response = Hms::deleteRoomCode($code);
 echo $response['message'];
 ```
 
+### 6. Enable or Disable a Room
+
+Toggle a room's availability using the provided helper methods:
+
+```php
+$roomId = 'room-id';
+
+// Disable the room
+Hms::disableRoom($roomId);
+
+// Enable the room
+Hms::enableRoom($roomId);
+```
+
 ## Testing
 
 To test your package locally:
@@ -131,3 +145,12 @@ This package is licensed under the [MIT License](https://opensource.org/license/
 ## Support
 
 If you encounter any issues or have feature requests, please open an issue in the GitHub repository.
+
+## Credits
+
+Show love by following me on social media:
+
+- Instagram: [@theafolayan](https://instagram.com/theafolayan)
+- Twitter: [@theafolayan](https://twitter.com/theafolayan)
+- LinkedIn: [@theafolayan](https://linkedin.com/in/theafolayan)
+- GitHub: [@theafolayan](https://github.com/theafolayan)
