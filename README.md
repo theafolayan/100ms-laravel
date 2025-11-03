@@ -102,6 +102,20 @@ $response = Hms::deleteRoomCode($code);
 echo $response['message'];
 ```
 
+### 6. Enable or Disable a Room
+
+Toggle a room's availability using the provided helper methods:
+
+```php
+$roomId = 'room-id';
+
+// Disable the room
+Hms::disableRoom($roomId);
+
+// Enable the room
+Hms::enableRoom($roomId);
+```
+
 ## Testing
 
 To test your package locally:
