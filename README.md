@@ -9,6 +9,13 @@ The 100ms Laravel SDK provides an easy way to integrate the 100ms API with your 
 - Secure authentication with management tokens.
 - Easy integration with Laravel through service providers and facades.
 
+## Requirements
+
+- PHP 8.0 or newer
+- Laravel 8 to 13 (the test suite runs against Laravel 10, 11, 12 and 13)
+
+The management token is signed with `firebase/php-jwt`. From version 7 of that library, an HS256 secret shorter than 32 bytes is rejected. Secrets issued by the 100ms dashboard are longer than that.
+
 ## Installation
 
 ### 1. Install the Package
